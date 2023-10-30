@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.para-1{
+    background-color: black;
+    color: white;
+    flex: 1;
+}
+
+.head{
+    flex:1
+}
+
+.section-2{
+display: flex;
+margin: 0 160px;
+}
+
+body{
+    background: black;
+}
+
+.section-2-parent{
+    padding:70px 0;
+
+}
+
+.para-1-heading{
+    margin-top: 100px;
+}
+
+.english{
+    border: 1px solid white;
+    display: inline;
+    padding: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 4px;
+}
+
+.language-button{
+    display: inline;
+    border: 1px solid #ffffff82;
+    border-radius: 5px;
+    width: 121px;
+    height: 28px;
+    padding-top: 4px;
+}
+
+.Sign-in{
+    background: red;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: rgb(0 , 0 , 0);
+    border-radius: 5px;
+    color: white;
+    height: 27px;
+    width: 81px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    gap: 41pc;
+    justify-content: center;
+    padding-top: 23px;
+
+}
+
+.logo{
+    height: 39px;
+}
+
+.buttons{
+    display: flex;
+    gap: 28px;
+}
+
+
+
+.section-1{
+    height: 700px;
+    width: 100%;
+    background-image: url("1.jpg");
+}
+.section-1-parent{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.section-1-gradient-effect{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background: rgb(0 0 0 / 40%);
+}
+
+.section-1-content{
+    text-align: center;
+    margin: 0px 136px;
+    position: relative;
+    top: 11pc;
+}
+
+
+.section-1-content p{
+    font-size: 26px;
+   font-weight: 500;
+    font-family: sans-serif;
+}
+
+.section-1-content h5{
+    font-size: 26px;
+   font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 23px;
+    font-size: 21.5px;
+}
+.get-started-button{
+    background: rgb(229, 9, 20);
+    font-size: 27px;
+    display: flex;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.input{
+    background: transparent;
+    border-color: #ffffff82;
+    width: 23pc;
+    font-size: 16px;
+    height: 56px;
+    border-radius: 6px;
+    padding-left: 16px;
+
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 26px;
+}
+
+
+hr{
+    height: 7px;
+    background: #80808087;
+    border: none;
+}
+
+.loading-animation{
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+
+
+/* section-3 start */
+
+.image-card{
+    display: flex;
+    width: 20%;
+    padding: 7px 8px;
+    border: 2px solid;
+    border-radius: 8px;
+    position: absolute;
+    background: black;
+    left: 17pc;
+    top: 98pc;
+    align-items: center;
+
+}
+
+.card-para{
+    flex:3;
+}
+
+.section-3{
+    display: flex;
+    margin: 0px 159px;
+}
+
+.section-3-image{
+    flex:1;
+}
+
+.section-3-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-3-parent{
+    padding: 72px 0px;
+}
+
+
+/* section-6 */
+button.accordion {
+    width: 75%;
+    background-color: #80808061;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 24px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    margin-bottom: 9px;
+    height: 85px;
+  }
+  
+  button.accordion:after {
+    font-family: FontAwesome;
+    content: "\f150";
+    font-family: "fontawesome";
+    font-size: 18px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: "\f151";
+  }
+  
+  button.accordion:hover,
+  button.accordion.is-open {
+    background-color: #80808061;
+
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+
+  .section-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px;
+  }
+
+  .section-6 h5{
+    font-size: 26px;
+    font-weight: 500;
+     font-family: sans-serif;
+     margin-top: 32px;
+     font-size: 21.5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .footer{
+    margin: 72px 111px;
+    padding: 0 48px;
+  }
+
+  .footer a{
+    margin: 16px 0 0 12px;
+    font-size: 16px;
+    color: #ffffff94;
+  }
